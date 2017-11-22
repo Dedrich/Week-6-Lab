@@ -2,11 +2,63 @@
 <html>
     <head>
         <title> 
-            Week 6 Lab 
+            Derek Bancroft - Week 6 Lab 
         </title>
     </head>
-
+    
+<link href="./styles.css" type="text/css" rel="stylesheet"/>
+    
     <body>
+        
+        <div class=large-text>
+            <h1>Heading A</h1>
+            <p>
+            This is the first div
+            </p>
+        </div>
+        
+        <div class=large-text>
+            <h1>Heading B</h1>
+            <p>
+            This is the second div
+            </p>
+        </div>
+        
+        <div>
+            <h1>Heading C</h1>
+            <form action="https://formspree.io/derek.bancroft@student.sl.on.ca" method="POST">
+                Name:<br>
+                <input type="text" name="name" placeholder="ex John Doe" required/> <br>
 
+                Enter Date Of Birth:<br>
+                <input type="date" name="dob"/> <br>
+
+                Gender: <br>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                
+
+                Province:<br>
+                <select name="province">
+                    <option value="">Select Province</option>
+                    <option value="on">Ontario</option>
+                    <option value="qc">Québec</option>
+                    <option value="bc">British Columbia</option>
+                    <option value="ab">Alberta</option>
+                    <option value="mb">Manitoba</option>
+                    <option value="sk">Saskatchewan</option>
+                    <option value="ns">Nova Scotia</option>
+                    <option value="nb">New Brunswick</option>
+                    <option value="nl">Newfoundland and Labrador</option>
+                    <option value="pe">Prince Edward Island</option>
+                    <option value="nt">Northwest Territories</option>
+                    <option value="nu">Nunavut</option>
+                    <option value="yt">Yukon</option>
+                </select> <br>
+
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        
     </body>
 </html>
